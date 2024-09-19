@@ -9,7 +9,6 @@ for (let i = 0; i < cadena.length; i++) {
     aux+=cadena.charAt(cadena.length-(i+1));
     
 }
- alert(aux);
  parrafo.innerHTML=aux;   
 }
 inverso();
