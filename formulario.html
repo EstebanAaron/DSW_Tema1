@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario que envia datos a una pagina PHP</h1>
+    <form action="proccessData.php" method="post">
+        <p>
+        <label for="name">Nombre: </label>
+        <input type="text" id="name" name="name" placeholder="Escribe tu nombre">
+        </p>
+        <p>
+            <label for="age">Edad: </label>
+            <input type="number" name="age" id="age" min="10" value="20">
+        </p>
+        <input type="submit" value="envia">
+        <input type="button" value="Boton del panico">
+    </form>
+</body>
+</html>
