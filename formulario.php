@@ -45,6 +45,26 @@
                 <option value="DPL1">DPL</option>
             </select>
         </p>
+        <p>
+            <label for="subject1">Modulo facorito php</label>
+            <?php require_once('subjectData.php');?>
+            <select name="subject1" id="subject1">
+                <?php foreach($subjects as $key => $subject1) {?>
+                    <option value="<?=$key?>"><?= $subject1?></option>
+               <?php }?>
+            </select>
+        </p>
+        <p>
+            <label for="company">Donde quieres hacer las practicas</label>
+            <select name="companiesId[]" id="company" multiple>
+                <?php
+                    require_once('companies.php');
+                    for ($i=0; $i <count($companies) ; $i++) { 
+                        printf('<option value="%d">%s</option>',$i, $companies[$i]);
+                    }
+                ?>
+            </select>
+        </p>
         <input type="submit" value="envia">
     </form>
 </body>
