@@ -1,0 +1,3 @@
+Esto son varias líneas.
+Dentro del archivo "pagina.txt"
+Última línea.
