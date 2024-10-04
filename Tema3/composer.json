@@ -1,0 +1,20 @@
+{
+    "name": "dsw/company",
+    "description": "class company with phpunit",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dsw\\Company\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EstebanAaron",
+            "email": "lr96aron@gmail.com"
+        }
+    ],
+    "require": {}
+}
